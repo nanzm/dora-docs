@@ -32,6 +32,11 @@ module.exports = {
           label: '语雀',
           position: 'right',
         },
+        {
+          href: 'https://dora.nancode.cn/',
+          label: 'Demo 体验地址',
+          position: 'right',
+        },
       ],
     },
     footer: {
