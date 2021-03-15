@@ -1,7 +1,10 @@
+const dayjs =require("dayjs")
+const now = dayjs().format("YYYY-MM-DD HH:mm:ss")
+
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Dora 前端监控平台',
-  tagline: 'dora web monitor platform',
+  title: 'Dora 哆啦',
+  tagline: '简单、易部署、可扩展的前端监控平台',
   url: 'https://nancode.cn',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -11,7 +14,7 @@ module.exports = {
   projectName: 'dora', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Dora',
+      title: 'Dora ',
       logo: {
         alt: 'Dora Site Logo',
         src: 'img/logo.svg',
@@ -20,13 +23,13 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
+          label: '文档',
+          position: 'right',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        // {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/nanzm',
-          label: 'GitHub',
+          href: 'https://www.yuque.com/dora-forum',
+          label: '语雀',
           position: 'right',
         },
       ],
@@ -47,15 +50,15 @@ module.exports = {
         //     },
         //   ],
         // },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: '语雀',
-              href: 'https://www.yuque.com/dora-forum',
-            },
-          ],
-        },
+        // {
+        //   title: 'Community',
+        //   items: [
+        //     {
+        //       label: '语雀',
+        //       href: 'https://www.yuque.com/dora-forum',
+        //     },
+        //   ],
+        // },
         // {
         //   title: 'More',
         //   items: [
@@ -70,7 +73,7 @@ module.exports = {
         //   ],
         // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Dora, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Dora. Update at ${now}`,
     },
   },
   presets: [
@@ -81,13 +84,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://www.yuque.com/dora-forum/docs',
+            'https://github.com/nanzm/dora-docs/edit/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://www.yuque.com/dora-forum/docs',
+            'https://github.com/nanzm/dora-docs/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
