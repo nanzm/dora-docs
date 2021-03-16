@@ -1,46 +1,46 @@
-const dayjs =require("dayjs")
-const now = dayjs().format("YYYY-MM-DD HH:mm:ss")
+const dayjs = require("dayjs");
+const now = dayjs().format("YYYY-MM-DD HH:mm:ss");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Dora 哆啦',
-  tagline: '简单、易部署、可扩展的前端监控平台',
-  url: 'https://nancode.cn',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'nancode', // Usually your GitHub org/user name.
-  projectName: 'dora', // Usually your repo name.
+  title: "Dora 哆啦",
+  tagline: "简单、易部署、可扩展的前端监控平台",
+  url: "https://nancode.cn",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "nancode", // Usually your GitHub org/user name.
+  projectName: "dora", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Dora ',
-      logo: {
-        alt: 'Dora Site Logo',
-        src: 'img/logo.svg',
-      },
+      title: "Dora",
+      // logo: {
+      // alt: 'Dora Site Logo',
+      // src: 'img/logo.svg',
+      // },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: '文档',
-          position: 'right',
+          to: "docs/",
+          activeBasePath: "docs",
+          label: "文档",
+          position: "right",
         },
         // {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://www.yuque.com/dora-forum',
-          label: '语雀',
-          position: 'right',
+          href: "https://www.yuque.com/dora-forum",
+          label: "语雀",
+          position: "right",
         },
         {
-          href: 'https://dora.nancode.cn/',
-          label: 'Demo 体验地址',
-          position: 'right',
+          href: "https://dora.nancode.cn/",
+          label: "Demo 体验地址",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         // {
         //   title: 'Docs',
@@ -83,22 +83,20 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/nanzm/dora-docs/edit/master/',
+          editUrl: "https://github.com/nanzm/dora-docs/edit/master/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/nanzm/dora-docs/edit/master/',
+          editUrl: "https://github.com/nanzm/dora-docs/edit/master/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],

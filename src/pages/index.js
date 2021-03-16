@@ -1,36 +1,34 @@
-import React from 'react';
-import clsx from 'clsx';
-import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useBaseUrl from '@docusaurus/useBaseUrl';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import Layout from "@theme/Layout";
+import Link from "@docusaurus/Link";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import styles from "./styles.module.css";
 
 const features = [
   {
-    title: '易使用',
+    title: "易部署",
+    description: <>使用了golang，支持 docker 、二进制包部署，系统稳定可靠</>,
+  },
+  {
+    title: "易使用",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        私有部署好后端服务后，前端只需安装 sdk
+        就能接入，同时提供了自定上报等方式。
       </>
     ),
   },
   {
-    title: '易部署',
+    title: "低成本",
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: '低成本',
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        使用阿里云日志服务存储数据，具有一定的
+        <Link to="https://help.aliyun.com/document_detail/51097.html?spm=a2c4g.11186623.6.546.2c323c77Q9dghI">
+          成本优势
+        </Link>
+        ，免维护，数据安全性有一定保证。
       </>
     ),
   },
@@ -39,10 +37,10 @@ const features = [
 function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--4', styles.feature)}>
+    <div className={clsx("col col--4", styles.feature)}>
       {imgUrl && (
         <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title}/>
+          <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
       <h3 className={styles.textCenter}>{title}</h3>
@@ -57,24 +55,29 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <header className={clsx('hero', styles.heroBanner)}>
+      description="Description will go into a meta tag in <head />"
+    >
+      <header className={clsx("hero", styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
+                "button button--outline button--secondary button--lg",
+                styles.getStarted
               )}
-              to={useBaseUrl('docs/')}>
+              to={useBaseUrl("docs/")}
+            >
               Get Started
             </Link>
           </div>
         </div>
       </header>
       <main>
+        <div>
+                  
+        </div>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
