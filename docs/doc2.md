@@ -4,9 +4,9 @@ title: 起步
 ---
 
 
-## 部署
+### 搭建
 
-### docker-compose
+#### docker-compose
 
 ```yml
 version: "3"  # optional since v1.27.0
