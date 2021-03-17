@@ -27,11 +27,11 @@ module.exports = {
           position: "right",
         },
         // {to: 'blog', label: 'Blog', position: 'left'},
-        {
-          href: "https://www.yuque.com/dora-forum",
-          label: "语雀",
-          position: "right",
-        },
+        // {
+        //   href: "https://www.yuque.com/dora-forum",
+        //   label: "语雀",
+        //   position: "right",
+        // },
         {
           href: "https://dora.nancode.cn/",
           label: "Demo 体验地址",

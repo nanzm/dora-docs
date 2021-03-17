@@ -6,5 +6,13 @@ title: 起步
 
 ## 部署
 
-### docker
+### docker-compose
 
+```yml
+version: "3"  # optional since v1.27.0
+services:
+  web:
+    ports:
+    volumes:
+
+```
