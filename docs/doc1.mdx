@@ -13,19 +13,16 @@ Dora 是一个轻量、易部署、易使用、成本低的前端监控系统。
 
 ![系统流程图](/img/diagram-1.png)
 
-系统分为三个部分`采集sdk`、`服务端`、`控制台`
-
+系统分为三个部分`采集sdk`、`服务端`、`控制台`，
 服务端接收到上报数据，进行校验过滤后，投递到消息队列，然后消费存储到日志服务中。服务端也为控制台提供的接口服务。
-
-查询分析依赖[日志服务](https://help.aliyun.com/document_detail/48869.html)，依托于阿里云的日志服务，对于大量的监控数据，无需考虑运维存储上的问题，成本也相对低廉，使得本系统设计简单可靠。
+查询分析依赖[日志服务](https://help.aliyun.com/document_detail/48869.html)，依托于阿里云的日志服务，对于大量的监控数据，无需考虑运维存储上的问题，成本也相对低廉，使得本系统简单可靠。
 
 #### 采集 sdk
 
 [https://www.npmjs.com/package/@dorasdk/js](https://www.npmjs.com/package/@dorasdk/js)
 
 `sdk`实现轻量，使用了`typescript`编写，体积小，已在多个项目中使用和验证。
-
-`gizp`后不到`10 kb`，优先使用了`sendBeacon`上报，不阻塞业务正常运行。
+`gizp`后不到`10kb`，优先使用了`sendBeacon`上报，不阻塞业务正常运行。
 
 #### 服务端
 
