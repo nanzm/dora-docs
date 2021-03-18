@@ -24,18 +24,23 @@
   justify-content: center;
 }
 
+.rowCenter {
+  justify-content: center;
+}
+
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  padding: 4rem 0;
   width: 100%;
 }
 
 .featureImage {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
 }
 
-.text-center{
+.titleText {
+  padding: 20px 0 10px 0;
   text-align: center;
 }
