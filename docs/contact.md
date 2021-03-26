@@ -1,7 +1,8 @@
 ---
-id: doc8
+id: contact
 title: 联系方式
 ---
+
 
 
 

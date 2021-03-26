@@ -1,5 +1,5 @@
 ---
-id: doc7
+id: questions
 title: 常见问题
 ---
 
@@ -7,3 +7,4 @@ title: 常见问题
 ### 项目是否开源？
 
 待定!
+
