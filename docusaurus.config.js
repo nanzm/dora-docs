@@ -33,7 +33,7 @@ module.exports = {
         //   position: "right",
         // },
         {
-          href: "https://dora.nancode.cn/",
+          href: "https://dora.nancode.cn/login?user=demo",
           label: "Live Demo",
           position: "right",
         },
