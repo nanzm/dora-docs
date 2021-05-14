@@ -83,7 +83,6 @@ export default function Home() {
         </div>
       </header>
       <main>
-        <div></div>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">

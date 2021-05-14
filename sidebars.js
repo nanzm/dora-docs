@@ -6,12 +6,12 @@ module.exports = {
       "server",
       "console",
       "cli",
-      "contact",
       "questions",
+      "contact",
     ],
     部署: [
-      "start",
-      "docker",
+      "deploy",
+      "docker-compose",
     ],
   },
 };

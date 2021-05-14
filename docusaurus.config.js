@@ -34,7 +34,7 @@ module.exports = {
         // },
         {
           href: "https://dora.nancode.cn/",
-          label: "Demo 体验地址",
+          label: "Live Demo",
           position: "right",
         },
       ],
