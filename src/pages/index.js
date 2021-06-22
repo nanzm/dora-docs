@@ -12,8 +12,7 @@ const features = [
     imageUrl: "img/1.svg",
     description: (
       <>
-        得益于golang，使得项目依赖少，轻量，支持 docker 、二进制包部署，提供了
-        docker-compose配置。
+        得益于 golang，具有吞吐量高、且轻量、资源占用少、部署简单等特点，支持 docker、二进制包部署。
       </>
     ),
   },
@@ -37,6 +36,13 @@ const features = [
         </Link>
         ，免维护，不用花费太多精力扩容，数据安全性有一定保证。
       </>
+    ),
+  },
+  {
+    title: "多功能",
+    imageUrl: "img/4.svg",
+    description: (
+      <>轻量打点功能、构建添加版本信息等、构建参物管理，在未来将会添加更多前端常用功能。</>
     ),
   },
 ];

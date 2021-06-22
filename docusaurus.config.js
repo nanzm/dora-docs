@@ -10,72 +10,67 @@ module.exports = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "nancode", // Usually your GitHub org/user name.
+  organizationName: "nanzm", // Usually your GitHub org/user name.
   projectName: "dora", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "Dora",
-      // logo: {
-      // alt: 'Dora Site Logo',
-      // src: 'img/logo.svg',
-      // },
+      logo: {
+        alt: 'Dora Site Logo',
+        src: 'img/logo.png',
+      },
       items: [
         {
           to: "docs/",
           activeBasePath: "docs",
           label: "文档",
-          position: "right",
+          position: "left",
         },
-        // {to: 'blog', label: 'Blog', position: 'left'},
-        // {
-        //   href: "https://www.yuque.com/dora-forum",
-        //   label: "语雀",
-        //   position: "right",
-        // },
         {
           href: "https://dora.nancode.cn/login?user=demo",
-          label: "Live Demo",
+          label: "线上 Demo",
+          position: "right",
+        },
+        {
+          href: "https://github.com/nanzm",
+          label: "Github",
           position: "right",
         },
       ],
     },
     footer: {
       links: [
-        // {
-        //   title: 'Docs',
-        //   items: [
-        //     {
-        //       label: 'Style Guide',
-        //       to: 'docs/',
-        //     },
-        //     {
-        //       label: 'Second Doc',
-        //       to: 'docs/doc2/',
-        //     },
-        //   ],
-        // },
-        // {
-        //   title: 'Community',
-        //   items: [
-        //     {
-        //       label: '语雀',
-        //       href: 'https://www.yuque.com/dora-forum',
-        //     },
-        //   ],
-        // },
-        // {
-        //   title: 'More',
-        //   items: [
-        //     {
-        //       label: 'Blog',
-        //       to: 'blog',
-        //     },
-        //     {
-        //       label: 'GitHub',
-        //       href: 'https://github.com/facebook/docusaurus',
-        //     },
-        //   ],
-        // },
+        {
+          title: 'Docs',
+          items: [
+            {
+              label: 'Guide',
+              to: 'docs/',
+            },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'slack',
+              href: 'https://dora-msg.slack.com/archives/C0265QB9K2M',
+            },
+          ],
+        },
+        {
+          title: 'More',
+          items: [
+            {
+              label: 'Blog',
+              href: 'https://nancode.cn',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/nanzm',
+            },
+          ],
+        },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Dora. Update at ${now}`,
     },

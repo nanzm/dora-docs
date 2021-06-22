@@ -1,14 +1,13 @@
 module.exports = {
   someSidebar: {
     文档: [
-      "roadmap",
       "introduce",
-      "sdk",
-      "server",
-      "console",
-      "cli",
+      "todo",
+      "dora",
+      "dora-server",
+      "dora-webapp",
+      "dora-cli",
       "deploy",
-      "docker-compose",
       "questions",
       "contact",
     ],
