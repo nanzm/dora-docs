@@ -3,7 +3,7 @@ const now = dayjs().format("YYYY-MM-DD HH:mm:ss");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "Dora 哆啦",
+  title: "Dora",
   tagline: "轻量、易部署、可扩展的前端监控平台",
   url: "https://nancode.cn",
   baseUrl: "/",
