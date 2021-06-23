@@ -9,7 +9,7 @@ import styles from "./styles.module.css";
 const features = [
   {
     title: "易部署",
-    imageUrl: "img/1.svg",
+    imageUrl: "img/f-1.svg",
     description: (
       <>
         得益于 golang 语言，具有吞吐量高、且轻量、资源占用少、部署简单等特点；同时支持二进制、docker 部署。
@@ -18,7 +18,7 @@ const features = [
   },
   {
     title: "易使用",
-    imageUrl: "img/2.svg",
+    imageUrl: "img/f-2.svg",
     description: (
       <>
         控制台使用了大量的图表，数据可视化展示，sdk 简单易用，有丰富的类型提示，提供了自定义上报、打点等方式。
@@ -27,7 +27,7 @@ const features = [
   },
   {
     title: "低成本",
-    imageUrl: "img/3.svg",
+    imageUrl: "img/f-3.svg",
     description: (
       <>
         可接入 elasticsearch ，也可使用相对低成本的阿里云
@@ -38,7 +38,7 @@ const features = [
   },
   {
     title: "多功能",
-    imageUrl: "img/4.svg",
+    imageUrl: "img/f-4.svg",
     description: (
       <>轻量打点功能、构建产物管理等，不仅限于监控告警，在未来将会添加更多前端常用的功能。</>
     ),
