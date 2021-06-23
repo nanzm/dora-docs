@@ -12,7 +12,6 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "nanzm", // Usually your GitHub org/user name.
   projectName: "dora", // Usually your repo name.
-  plugins: ['@docusaurus/plugin-google-analytics'],
   themeConfig: {
     navbar: {
       title: "Dora",
@@ -76,6 +75,11 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Dora. `,
     },
     googleAnalytics: {
+      trackingID: 'G-RMPF5Z1XN3',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
+    gtag: {
       trackingID: 'G-RMPF5Z1XN3',
       // Optional fields.
       anonymizeIP: true, // Should IPs be anonymized?
