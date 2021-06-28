@@ -1,15 +1,26 @@
 module.exports = {
   someSidebar: {
-    文档: [
+    TODO: [ "todo" ],
+    快速入门: [
       "introduce",
-      "todo",
+      "quick-start",
+      "core-concepts",
+    ],
+    安装配置: [
+      "deploy",
+      // "mysql-redis-nsq",
+      // "elastic",
+    ],
+    详细说明: [
       "dora",
-      "dora-server",
       "dora-webapp",
       "dora-cli",
-      "deploy",
+      "dora-server",
+    ],
+    贡献代码: [],
+    联系: [
       "questions",
       "contact",
-    ],
+    ]
   },
 };
