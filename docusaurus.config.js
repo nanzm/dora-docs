@@ -5,13 +5,13 @@ const now = dayjs().format("YYYY-MM-DD HH:mm:ss");
 module.exports = {
   title: "Dora",
   tagline: "轻量、易部署、可扩展的前端监控平台",
-  url: "https://nancode.cn",
+  url: "https://dora-docs.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "nanzm", // Usually your GitHub org/user name.
-  projectName: "dora", // Usually your repo name.
+  projectName: "dora-docs", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "Dora",
