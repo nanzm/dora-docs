@@ -1,14 +1,5 @@
 # dora-docs
 
-## Installation
+github: [https://nanzm.github.io/dora-docs](https://nanzm.github.io/dora-docs)
 
-```console
-npm install
-
-npm start
-
-npm build
-
-GIT_USER=<Your GitHub username> USE_SSH=true npm deploy
-
-```
+码云(国内):  

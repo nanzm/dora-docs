@@ -22,7 +22,7 @@ title: 开发计划
 - [x] transit 投递到 mq
 - [x] transit 投递到 阿里云 sls
 - [x] transit 投递到 elasticsearch
-- [ ] manage 日志指标查询接口（工作量大）
+- [x] manage 日志指标查询接口（工作量大）
 - [ ] manage 日志指标查询 同时兼容 elasticsearch 和 sls
 - [ ] manage 日志自定义查询接口
 - [ ] manage 构建参物备份管理接口
@@ -36,7 +36,7 @@ title: 开发计划
 - [x] 脚本错误展示、查询
 - [ ] sourcemap 管理
 - [x] api 错误展示、查询
-- [ ] 性能数据展示、查询
+- [x] 性能数据展示、查询
 - [ ] 打点数据展示、查询
 - [ ] 日志查询
 - [ ] 告警配置、查看
