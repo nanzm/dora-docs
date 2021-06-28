@@ -18,7 +18,7 @@ title: 快速安装
 
 ### 数据库等启动
 
-相关配置文件在： https://github.com/nanzm/dora-server/tree/master/deployments
+相关配置文件在： [deployments](https://github.com/nanzm/dora-server/tree/master/deployments)
 
 ```shell
 # 参考示例操作如下
@@ -40,7 +40,7 @@ docker-compose -f ./elasticstack.yml down
 
 ### 应用启动
 
-应用配置文件示例在： https://github.com/nanzm/dora-server/blob/master/config.example.yml
+应用配置文件示例在： [config.example.yml](https://github.com/nanzm/dora-server/blob/master/config.example.yml)
 
 请拷贝 `config.example.yml` 修改
 
