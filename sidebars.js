@@ -7,7 +7,7 @@ module.exports = {
       "core-concepts",
     ],
     安装配置: [
-      "deploy",
+      "docker",
       // "mysql-redis-nsq",
       // "elastic",
     ],
