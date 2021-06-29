@@ -27,6 +27,9 @@ unzip master.zip
 mv dora-server-master/deployments  ./my-dora
 cd my-dora
 
+# 创建网络
+docker network create dora_net
+
 # 启动 mysql redis nsq elastic
 docker-compose -f ./docker-compose.base.yml up -d
 
