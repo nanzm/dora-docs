@@ -6,12 +6,12 @@ module.exports = {
   title: "Dora",
   tagline: "5 分钟搭建一套前端监控系统",
   url: "https://doras.space",
-  baseUrl: "/dora-docs/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "dora-projects", // Usually your GitHub org/user name.
-  projectName: "dora-docs", // Usually your repo name.
+  projectName: "docs", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "Dora",
