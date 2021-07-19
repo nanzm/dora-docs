@@ -26,13 +26,11 @@ const features = [
     ),
   },
   {
-    title: "低成本",
+    title: "可扩展",
     imageUrl: "img/f-3.svg",
     description: (
       <>
-        可接入 elasticsearch ，也可使用相对低成本的阿里云
-        <Link to="https://help.aliyun.com/document_detail/51097.html?spm=a2c4g.11186623.6.546.2c323c77Q9dghI"> sls </Link>
-        服务，具有一定的成本优势，数据免维护，无需担心扩容问题，数据安全性有一定保证。
+        基于日志存储 elasticsearch ，具有横向可扩展性，对于大量的日志，也能拥有实时且丰富的检索功能。
       </>
     ),
   },

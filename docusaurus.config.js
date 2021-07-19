@@ -4,13 +4,13 @@ const now = dayjs().format("YYYY-MM-DD HH:mm:ss");
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Dora",
-  tagline: "轻量、易部署、可扩展的前端监控平台",
-  url: "https://nanzm.github.io/dora-docs",
+  tagline: "5 分钟搭建一套前端监控系统",
+  url: "https://doras.space",
   baseUrl: "/dora-docs/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "nanzm", // Usually your GitHub org/user name.
+  organizationName: "dora-projects", // Usually your GitHub org/user name.
   projectName: "dora-docs", // Usually your repo name.
   themeConfig: {
     navbar: {
@@ -27,12 +27,12 @@ module.exports = {
           position: "left",
         },
         {
-          href: "https://dora.nancode.cn/login?user=demo",
+          href: "https://dora.nancode.cn",
           label: "线上 Demo",
           position: "right",
         },
         {
-          href: "https://github.com/nanzm",
+          href: "https://github.com/dora-projects",
           label: "Github",
           position: "right",
         },
@@ -67,7 +67,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/nanzm',
+              href: 'https://github.com/dora-projects',
             },
           ],
         },
@@ -92,12 +92,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/nanzm/dora-docs/edit/master/",
+          editUrl: "https://github.com/dora-projects/dora-docs/edit/master/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: "https://github.com/nanzm/dora-docs/edit/master/",
+          editUrl: "https://github.com/dora-projects/dora-docs/edit/master/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

@@ -1,15 +1,14 @@
 module.exports = {
   someSidebar: {
-    TODO: [ "todo" ],
     快速入门: [
       "introduce",
       "quick-start",
       "core-concepts",
     ],
     安装配置: [
+      "config",
       "docker",
-      // "mysql-redis-nsq",
-      // "elastic",
+      "elastic",
     ],
     详细说明: [
       "dora",

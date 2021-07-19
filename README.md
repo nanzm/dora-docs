@@ -1,5 +1,7 @@
-# dora-docs
+# docs
 
-github: [https://nanzm.github.io/dora-docs](https://nanzm.github.io/dora-docs)
+```shell
+npm install 
 
-码云(国内):  
+npm run start
+```
